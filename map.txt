@@ -1,0 +1,15 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello,World!!")
+      fruit_basket := map[string]int{ //key will be type string and value is of type int
+		"apple":  30,
+		"mango":  60,
+		"banana": 40}
+	fmt.Println(fruit_basket)
+	fmt.Println("end")
+}

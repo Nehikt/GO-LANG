@@ -1,0 +1,20 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello,World!!")
+      var a int = 10
+	var b int = 20
+	fmt.Println(a)
+      fmt.Println(b)
+	}
+var (sname      string  = "neha"    //variable block
+	rollno     int     = 31 
+	percentage float32 = 9.87
+	)
+	fmt.Printf("%v %T\n", sname, sname)
+	fmt.Printf("%v %T\n", rollno, rollno)
+	fmt.Printf("%v %T\n", percentage, percentage)

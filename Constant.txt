@@ -1,0 +1,20 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+const um int = 10
+	fmt.Println(um)
+	const (
+		q int     = iota // act as a counter
+		p int     = iota
+		u int     = iota
+		e float32 = iota
+	)
+	fmt.Println(q)
+	fmt.Println(p)
+	fmt.Println(u)
+	fmt.Println(e)
+}

@@ -1,0 +1,13 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello,World!!")
+      var v bool = true
+	var k bool = false
+      fmt.Println(v && k)
+	fmt.Println(v || k)
+	}
